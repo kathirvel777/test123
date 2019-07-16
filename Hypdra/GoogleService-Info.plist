@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-4411584255946382/4912857702</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-4411584255946382/2015231623</string>
+	<key>CLIENT_ID</key>
+	<string>916257056143-vr3eicm9qap6obi2tnkj7q7a6q40felc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.916257056143-vr3eicm9qap6obi2tnkj7q7a6q40felc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsnNt_ClLVreIq5OfFcdHhp8rvLZjXPEc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>916257056143</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ios.wizard.hypdra</string>
+	<key>PROJECT_ID</key>
+	<string>hypdra-70be0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hypdra-70be0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:916257056143:ios:d8a016e69912b897</string>
+	<key>DATABASE_URL</key>
+	<string>https://hypdra-70be0.firebaseio.com</string>
+</dict>
+</plist>

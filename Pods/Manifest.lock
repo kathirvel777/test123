@@ -1,0 +1,301 @@
+PODS:
+  - ADAL (1.2.10)
+  - APAddressBook (0.3.1):
+    - APAddressBook/Core (= 0.3.1)
+  - APAddressBook/Core (0.3.1)
+  - Base32 (1.1.2)
+  - CocoaLumberjack (1.7.0):
+    - CocoaLumberjack/Core (= 1.7.0)
+    - CocoaLumberjack/Extensions (= 1.7.0)
+  - CocoaLumberjack/Core (1.7.0)
+  - CocoaLumberjack/Extensions (1.7.0):
+    - CocoaLumberjack/Core
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.12)
+  - DTFoundation/DTAnimatedGIF (1.7.12)
+  - DTFoundation/DTHTMLParser (1.7.12):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.12):
+    - DTFoundation/Core
+  - Fabric (1.7.5)
+  - Firebase/Core (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.1):
+    - FirebaseCore (= 5.0.6)
+  - Firebase/Messaging (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.6):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FXImageView (1.3.6)
+  - Google-Mobile-Ads-SDK (7.32.0)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (2.0.4):
+    - Google/Core
+    - GoogleSignIn (~> 3.0)
+  - GoogleAPIClientForREST/Core (1.3.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Drive (1.3.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppUtilities (1.1.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleAuthUtilities (2.0.2):
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleMobileAdsMediationInMobi (7.1.1.1):
+    - Google-Mobile-Ads-SDK (>= 7.14.0)
+    - InMobiSDK (= 7.1.1)
+  - GoogleMobileAdsMediationUnity (2.2.1.0):
+    - Google-Mobile-Ads-SDK (>= 7.10.1)
+    - UnityAds (= 2.2.1)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSignIn (3.0.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - InMobiSDK (7.1.1)
+  - KBContactsSelection (1.2.6):
+    - APAddressBook (~> 0.2)
+  - libCGE (2.4.5)
+  - lottie-ios (2.5.0)
+  - Masonry (1.1.0)
+  - MSColorPicker (1.0.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectiveDropboxOfficial (3.3.2)
+  - OneDriveSDK (1.3.0):
+    - OneDriveSDK/Auth (= 1.3.0)
+    - OneDriveSDK/Common (= 1.3.0)
+    - OneDriveSDK/Extensions (= 1.3.0)
+    - OneDriveSDK/Implementations (= 1.3.0)
+    - OneDriveSDK/OneDriveCoreSDK (= 1.3.0)
+  - OneDriveSDK/Auth (1.3.0):
+    - ADAL (~> 1.2)
+    - Base32 (~> 1.1)
+    - OneDriveSDK/Common
+  - OneDriveSDK/Common (1.3.0)
+  - OneDriveSDK/Extensions (1.3.0):
+    - OneDriveSDK/Auth
+    - OneDriveSDK/Implementations
+    - OneDriveSDK/OneDriveCoreSDK
+  - OneDriveSDK/Implementations (1.3.0):
+    - OneDriveSDK/Common
+  - OneDriveSDK/OneDriveCoreSDK (1.3.0):
+    - OneDriveSDK/Common
+  - Phone-Country-Code-and-Flags (0.2.1)
+  - PhoneCountryCodePicker (0.2.0):
+    - Phone-Country-Code-and-Flags
+  - Protobuf (3.6.1)
+  - Reachability (3.1.1)
+  - SJBorderLineView (0.0.3)
+  - SJSlider (0.0.9):
+    - Masonry
+  - SJVideoPlayer (0.0.4):
+    - Masonry
+    - SJBorderLineView
+    - SJSlider
+  - SwipeBack (1.1.1)
+  - TwitterCore (3.0.1)
+  - TwitterKit (3.1.1):
+    - TwitterCore (>= 3.0.1)
+  - UnityAds (2.2.1)
+  - VKFoundation (0.1.1):
+    - CocoaLumberjack (~> 1.7.0)
+    - DTCoreText (~> 1.6.11)
+    - FXImageView (~> 1.3.3)
+    - Reachability (~> 3.1.1)
+  - VKVideoPlayer (0.1.4):
+    - CocoaLumberjack (~> 1.7.0)
+    - DTCoreText (~> 1.6.11)
+    - VKFoundation (= 0.1.1)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Firebase/Core
+  - Firebase/Messaging
+  - Google-Mobile-Ads-SDK
+  - Google/SignIn
+  - GoogleAPIClientForREST/Drive
+  - GoogleMobileAdsMediationInMobi
+  - GoogleMobileAdsMediationUnity
+  - InMobiSDK
+  - KBContactsSelection
+  - libCGE (from `https://github.com/wysaid/ios-gpuimage-plus-pod.git`, tag `2.4.7`)
+  - lottie-ios
+  - MSColorPicker
+  - ObjectiveDropboxOfficial
+  - OneDriveSDK
+  - PhoneCountryCodePicker
+  - SJVideoPlayer
+  - SwipeBack (~> 1.1)
+  - TwitterKit
+  - VKVideoPlayer (~> 0.1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ADAL
+    - APAddressBook
+    - Base32
+    - CocoaLumberjack
+    - Crashlytics
+    - DTCoreText
+    - DTFoundation
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FXImageView
+    - Google
+    - Google-Mobile-Ads-SDK
+    - GoogleAPIClientForREST
+    - GoogleAppUtilities
+    - GoogleAuthUtilities
+    - GoogleInterchangeUtilities
+    - GoogleMobileAdsMediationInMobi
+    - GoogleMobileAdsMediationUnity
+    - GoogleNetworkingUtilities
+    - GoogleSignIn
+    - GoogleSymbolUtilities
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - InMobiSDK
+    - KBContactsSelection
+    - lottie-ios
+    - Masonry
+    - MSColorPicker
+    - nanopb
+    - ObjectiveDropboxOfficial
+    - OneDriveSDK
+    - Phone-Country-Code-and-Flags
+    - PhoneCountryCodePicker
+    - Protobuf
+    - Reachability
+    - SJBorderLineView
+    - SJSlider
+    - SJVideoPlayer
+    - SwipeBack
+    - TwitterCore
+    - TwitterKit
+    - UnityAds
+    - VKFoundation
+    - VKVideoPlayer
+
+EXTERNAL SOURCES:
+  libCGE:
+    :git: https://github.com/wysaid/ios-gpuimage-plus-pod.git
+    :tag: 2.4.7
+
+CHECKOUT OPTIONS:
+  libCGE:
+    :git: https://github.com/wysaid/ios-gpuimage-plus-pod.git
+    :tag: 2.4.7
+
+SPEC CHECKSUMS:
+  ADAL: f2eb2158b9bcd2c8416ff2d026c176b98ea6651f
+  APAddressBook: f7e50fce276ae975c202b83b0ee98f4efde5a104
+  Base32: 163c298644d184e89ca4e00a996bad6bf5166390
+  CocoaLumberjack: a2213b8410917a1a5ecfc5c63a4206edc24d3a5b
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: 26a164ef510877387906fb92bff524a792db4bf8
+  Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
+  Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 4c28e3b9708ba48a765e76515f913a71596eb5dd
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  FXImageView: 34792b9c9bbdbfed70ff33cb015cc4d333daac34
+  Google: d536877ec602555b755cc28ce6fed104825c693c
+  Google-Mobile-Ads-SDK: 2aca87e46e860f1e1fc0fdc1201dd9caa4be9ba6
+  GoogleAPIClientForREST: d18c6704317d6d5c56d70f724f8990eb125359a4
+  GoogleAppUtilities: a8a552aa74f6597f805e45b5a3962766c3134973
+  GoogleAuthUtilities: ccad2e0a9284699973ff57c0dd24c3893657fda4
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleMobileAdsMediationInMobi: 32af58f7da12ff43e406e50e9ea9fea482641645
+  GoogleMobileAdsMediationUnity: 93e88313c9c840f6006b6adf2cc71b522223f6ab
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSignIn: 3d571172b8603be39dcb1705d8217146bb76fe62
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  InMobiSDK: 8306ff9c9a966b4a43dd957f57b407a1a9ab7ba5
+  KBContactsSelection: f31d916d041cc7c03338d2754f8e297d705709b9
+  libCGE: 727fd408c1a03f2bb1fbf700b85bd72815bb25f8
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MSColorPicker: 1d11c8f6b74a811ac5a9dace4cc5211ef8002c5c
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectiveDropboxOfficial: fabfe6b6bf3883f730386134c5c7e17f567dba06
+  OneDriveSDK: 90ab8781f0992c37d96b68cc340585f5cf36701f
+  Phone-Country-Code-and-Flags: 19b303483d6e14091a1e3a404ec2aac8f08a985c
+  PhoneCountryCodePicker: 3d8a797562bbcd2309944e0b683eadaa824cacad
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  SJBorderLineView: 791d0ba12a8dd7be28b898e0c60b9e07b7f5c62f
+  SJSlider: c637f70af30f0e80dea0f092307260faa35913e2
+  SJVideoPlayer: d0f59a16d578b3d9fe294f0309cbd59c93246c98
+  SwipeBack: d6759601b40da1f4161033feb30ab475d7d04322
+  TwitterCore: 6856288a1c25e5281363250681f33b42fce1da42
+  TwitterKit: 313bf02baee8427f7649b3640169178e5a8b5a99
+  UnityAds: 775505b6c6856bfa215fa1916ed088f4f3b9567f
+  VKFoundation: a3d26de016870f705a256c5c6dbab57865c4e99a
+  VKVideoPlayer: 75d0c44d8cd208dd01ae397d2e75c52cfc51dd19
+
+PODFILE CHECKSUM: 444a0d14d205f46dd701f2c9819531378143d0c7
+
+COCOAPODS: 1.5.0

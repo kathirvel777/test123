@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MailTableCell" rowHeight="95" id="ntJ-cE-fS1" customClass="MailTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ntJ-cE-fS1" id="3Bn-jI-K5v">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="94.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Em-hE-7YK">
+                        <rect key="frame" x="0.0" y="0.0" width="365" height="94"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder_no_text.png" translatesAutoresizingMaskIntoConstraints="NO" id="WGv-G3-Mal">
+                                <rect key="frame" x="22" y="19" width="36" height="56"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV2-M2-0mN">
+                                <rect key="frame" x="77" y="19" width="182" height="23"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ay0-By-b2o">
+                                <rect key="frame" x="108" y="48" width="219" height="23"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEB-vL-Vai">
+                                <rect key="frame" x="331" y="22" width="14" height="40"/>
+                                <state key="normal" title="Button" image="box64.png"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="32-save-vedio" translatesAutoresizingMaskIntoConstraints="NO" id="Mgv-Y7-UZs">
+                                <rect key="frame" x="75" y="48" width="33" height="23"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kV2-M2-0mN" firstAttribute="width" secondItem="1Em-hE-7YK" secondAttribute="width" multiplier="0.5" id="0Ca-z2-rvF"/>
+                            <constraint firstItem="Mgv-Y7-UZs" firstAttribute="centerY" secondItem="1Em-hE-7YK" secondAttribute="centerY" multiplier="1.27" id="0Hr-P7-A3l"/>
+                            <constraint firstItem="gEB-vL-Vai" firstAttribute="height" secondItem="1Em-hE-7YK" secondAttribute="height" multiplier="0.42" id="2zX-Pz-vNd"/>
+                            <constraint firstItem="Ay0-By-b2o" firstAttribute="width" secondItem="1Em-hE-7YK" secondAttribute="width" multiplier="0.6" id="8UM-3l-LWw"/>
+                            <constraint firstItem="WGv-G3-Mal" firstAttribute="centerX" secondItem="1Em-hE-7YK" secondAttribute="centerX" multiplier="0.22" id="CPG-QA-Ef8"/>
+                            <constraint firstItem="gEB-vL-Vai" firstAttribute="centerX" secondItem="1Em-hE-7YK" secondAttribute="centerX" multiplier="1.85" id="INF-pN-H7O"/>
+                            <constraint firstItem="Ay0-By-b2o" firstAttribute="height" secondItem="1Em-hE-7YK" secondAttribute="height" multiplier="0.25" id="J7p-Hv-22Y"/>
+                            <constraint firstItem="Mgv-Y7-UZs" firstAttribute="height" secondItem="1Em-hE-7YK" secondAttribute="height" multiplier="0.25" id="Kh9-6O-h3X"/>
+                            <constraint firstItem="Ay0-By-b2o" firstAttribute="centerY" secondItem="1Em-hE-7YK" secondAttribute="centerY" multiplier="1.27" id="Lps-78-aQz"/>
+                            <constraint firstItem="WGv-G3-Mal" firstAttribute="height" secondItem="1Em-hE-7YK" secondAttribute="height" multiplier="0.6" id="NK9-Te-CHe"/>
+                            <constraint firstItem="gEB-vL-Vai" firstAttribute="centerY" secondItem="1Em-hE-7YK" secondAttribute="centerY" multiplier="0.9" id="W6j-wx-lvz"/>
+                            <constraint firstItem="WGv-G3-Mal" firstAttribute="width" secondItem="1Em-hE-7YK" secondAttribute="width" multiplier="0.1" id="YOj-0p-7gJ"/>
+                            <constraint firstItem="kV2-M2-0mN" firstAttribute="centerY" secondItem="1Em-hE-7YK" secondAttribute="centerY" multiplier="0.65" id="YbX-Fw-YNw"/>
+                            <constraint firstItem="gEB-vL-Vai" firstAttribute="width" secondItem="1Em-hE-7YK" secondAttribute="width" multiplier="0.04" id="fUh-7B-5kv"/>
+                            <constraint firstItem="Mgv-Y7-UZs" firstAttribute="centerX" secondItem="1Em-hE-7YK" secondAttribute="centerX" multiplier="0.5" id="fXs-er-CMo"/>
+                            <constraint firstItem="kV2-M2-0mN" firstAttribute="centerX" secondItem="1Em-hE-7YK" secondAttribute="centerX" multiplier="0.92" id="nWq-3Q-TNW"/>
+                            <constraint firstItem="WGv-G3-Mal" firstAttribute="centerY" secondItem="1Em-hE-7YK" secondAttribute="centerY" id="oXx-fY-B84"/>
+                            <constraint firstItem="Mgv-Y7-UZs" firstAttribute="width" secondItem="1Em-hE-7YK" secondAttribute="width" multiplier="0.09" id="qYM-rL-YZS"/>
+                            <constraint firstItem="kV2-M2-0mN" firstAttribute="height" secondItem="1Em-hE-7YK" secondAttribute="height" multiplier="0.25" id="weK-It-rrO"/>
+                            <constraint firstItem="Ay0-By-b2o" firstAttribute="centerX" secondItem="1Em-hE-7YK" secondAttribute="centerX" multiplier="1.19" id="zqb-Oi-98H"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1Em-hE-7YK" firstAttribute="top" secondItem="3Bn-jI-K5v" secondAttribute="top" id="2JK-hH-vMK"/>
+                    <constraint firstItem="1Em-hE-7YK" firstAttribute="leading" secondItem="3Bn-jI-K5v" secondAttribute="leading" id="AtQ-Ld-Bl4"/>
+                    <constraint firstAttribute="bottom" secondItem="1Em-hE-7YK" secondAttribute="bottom" id="S5h-yf-qop"/>
+                    <constraint firstAttribute="trailing" secondItem="1Em-hE-7YK" secondAttribute="trailing" id="uOe-32-LSW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Iv_msgicon" destination="Mgv-Y7-UZs" id="Y8Q-em-CBy"/>
+                <outlet property="Iv_profile" destination="WGv-G3-Mal" id="FIm-fi-Ujs"/>
+                <outlet property="btn_checkbox" destination="gEB-vL-Vai" id="QmP-kO-9Zc"/>
+                <outlet property="lbl_mailid" destination="Ay0-By-b2o" id="Jvn-SR-yfa"/>
+                <outlet property="lbl_name" destination="kV2-M2-0mN" id="w4g-3c-Dcu"/>
+            </connections>
+            <point key="canvasLocation" x="264.5" y="222.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="32-save-vedio" width="32" height="32"/>
+        <image name="Placeholder_no_text.png" width="1024" height="1024"/>
+        <image name="box64.png" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewController">
+            <connections>
+                <outlet property="view" destination="H2q-Uh-KmO" id="DLe-iZ-977"/>
+                <outlet property="webView" destination="aze-dy-iBn" id="9X3-kh-He1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="H2q-Uh-KmO">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aze-dy-iBn">
+                    <rect key="frame" x="0.0" y="66.5" width="375" height="600.5"/>
+                    <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNT-su-h3z">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="66.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hr-om-iWK">
+                            <rect key="frame" x="10" y="0.0" width="37.5" height="66.5"/>
+                            <state key="normal" image="12-back-arrow"/>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="VdE-ZV-Gvy"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flickr Authentication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfj-vr-RHn">
+                            <rect key="frame" x="94" y="0.0" width="187.5" height="66.5"/>
+                            <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.23529411764705882" green="0.63529411764705879" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="rfj-vr-RHn" firstAttribute="height" secondItem="rNT-su-h3z" secondAttribute="height" id="0Y6-Do-ucd"/>
+                        <constraint firstItem="rfj-vr-RHn" firstAttribute="centerY" secondItem="rNT-su-h3z" secondAttribute="centerY" id="6Za-Hq-sun"/>
+                        <constraint firstItem="9Hr-om-iWK" firstAttribute="width" secondItem="rNT-su-h3z" secondAttribute="width" multiplier="0.1" id="H9G-sr-n2P"/>
+                        <constraint firstItem="9Hr-om-iWK" firstAttribute="top" secondItem="rNT-su-h3z" secondAttribute="top" id="IW3-yr-OUO"/>
+                        <constraint firstItem="9Hr-om-iWK" firstAttribute="height" secondItem="rNT-su-h3z" secondAttribute="height" id="dKG-0j-UJT"/>
+                        <constraint firstAttribute="bottom" secondItem="9Hr-om-iWK" secondAttribute="bottom" id="j7o-q1-WPX"/>
+                        <constraint firstItem="rfj-vr-RHn" firstAttribute="centerX" secondItem="rNT-su-h3z" secondAttribute="centerX" id="qHf-lB-QMs"/>
+                        <constraint firstAttribute="height" constant="66.5" id="rWu-NG-mgh"/>
+                        <constraint firstItem="rfj-vr-RHn" firstAttribute="width" secondItem="rNT-su-h3z" secondAttribute="width" multiplier="0.5" id="sWA-wk-HQ8"/>
+                        <constraint firstItem="9Hr-om-iWK" firstAttribute="leading" secondItem="rNT-su-h3z" secondAttribute="leading" constant="10" id="vm2-H2-u8r"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aze-dy-iBn" secondAttribute="trailing" id="14v-Jp-KfC"/>
+                <constraint firstAttribute="bottom" secondItem="aze-dy-iBn" secondAttribute="bottom" id="3li-HL-S8E"/>
+                <constraint firstItem="rNT-su-h3z" firstAttribute="width" secondItem="H2q-Uh-KmO" secondAttribute="width" id="UPc-2T-nb7"/>
+                <constraint firstItem="aze-dy-iBn" firstAttribute="leading" secondItem="H2q-Uh-KmO" secondAttribute="leading" id="Zuv-lq-eC4"/>
+                <constraint firstItem="rNT-su-h3z" firstAttribute="top" secondItem="H2q-Uh-KmO" secondAttribute="top" id="doZ-7Y-EnA"/>
+                <constraint firstItem="rNT-su-h3z" firstAttribute="leading" secondItem="H2q-Uh-KmO" secondAttribute="leading" id="heL-nc-wEU"/>
+                <constraint firstAttribute="trailing" secondItem="rNT-su-h3z" secondAttribute="trailing" id="qB8-zi-g2I"/>
+                <constraint firstItem="aze-dy-iBn" firstAttribute="top" secondItem="rNT-su-h3z" secondAttribute="bottom" id="v0s-RI-14a"/>
+            </constraints>
+            <point key="canvasLocation" x="1371" y="220"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="12-back-arrow" width="21" height="21"/>
+    </resources>
+</document>

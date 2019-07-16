@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FlickrCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wZP-vU-3Qv">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="230"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CTAssetsPickerChecked~iOS6" translatesAutoresizingMaskIntoConstraints="NO" id="zX8-El-Mhr">
+                        <rect key="frame" x="173" y="184" width="43" height="46"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="wZP-vU-3Qv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AZb-iK-G9M"/>
+                <constraint firstItem="zX8-El-Mhr" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.2" id="BXT-Dy-cZs"/>
+                <constraint firstAttribute="bottom" secondItem="wZP-vU-3Qv" secondAttribute="bottom" id="JJK-qJ-qPx"/>
+                <constraint firstAttribute="bottom" secondItem="zX8-El-Mhr" secondAttribute="bottom" id="SNn-i1-DbO"/>
+                <constraint firstAttribute="trailing" secondItem="zX8-El-Mhr" secondAttribute="trailing" id="Tio-f8-bD5"/>
+                <constraint firstAttribute="trailing" secondItem="wZP-vU-3Qv" secondAttribute="trailing" id="ZOY-ny-ES8"/>
+                <constraint firstItem="wZP-vU-3Qv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dFE-dY-hgd"/>
+                <constraint firstItem="zX8-El-Mhr" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.2" id="dKf-Cg-4ZE"/>
+            </constraints>
+            <size key="customSize" width="216" height="230"/>
+            <connections>
+                <outlet property="imageView" destination="wZP-vU-3Qv" id="XTa-rs-1uT"/>
+                <outlet property="selectedImage" destination="zX8-El-Mhr" id="E8X-YU-dkV"/>
+            </connections>
+            <point key="canvasLocation" x="438" y="679"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CTAssetsPickerChecked~iOS6" width="29" height="29"/>
+    </resources>
+</document>

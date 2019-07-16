@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AI</key>
+	<array>
+		<string>com.ios.wizard.hypdra.one.ai.style</string>
+	</array>
+	<key>Uploads</key>
+	<array>
+		<string>com.ios.wizard.hypdra.onemusic</string>
+	</array>
+	<key>MemberShip</key>
+	<array>
+		<string>com.ios.wizard.hypdra.premiummonthly</string>
+		<string>com.ios.wizard.hypdra.premiumyearly</string>
+		<string>com.ios.wizard.hypdra.standardmonthly</string>
+		<string>com.ios.wizard.hypdra.standardyearly</string>
+	</array>
+	<key>WaterMark</key>
+	<array>
+		<string>com.ios.wizard.hypdra.removewatermark</string>
+	</array>
+	<key>Minutes</key>
+	<array>
+		<string>com.ios.wizard.hypdra.fiveMinutes</string>
+		<string>com.ios.wizard.hypdra.tenminutes</string>
+		<string>com.ios.wizard.hypdra.twentyminutes</string>
+		<string>com.ios.wizard.hypdra.thirtyminutes</string>
+		<string>com.ios.wizard.hypdra.fortyminutes</string>
+		<string>com.ios.wizard.hypdra.fifityminutes</string>
+		<string>com.ios.wizard.hypdra.sixtyminutes</string>
+		<string>com.ios.wizard.hypdra.seventyminutes</string>
+		<string>com.ios.wizard.hypdra.eightyminutes</string>
+		<string>com.ios.wizard.hypdra.ninetyminutes</string>
+		<string>com.ios.wizard.hypdra.hundredminutes</string>
+	</array>
+	<key>Space</key>
+	<array>
+		<string>com.ios.wizard.hypdra.onegb</string>
+		<string>com.ios.wizard.hypdra.twogb</string>
+		<string>com.ios.wizard.hypdra.threegb</string>
+		<string>com.ios.wizard.hypdra.fourgb</string>
+		<string>com.ios.wizard.hypdra.tengb</string>
+		<string>com.ios.wizard.hypdra.twentygb</string>
+		<string>com.ios.wizard.hypdra.fiftygb</string>
+		<string>com.ios.wizard.hypdra.hundredgb</string>
+		<string>com.ios.wizard.hypdra.twofiftygb</string>
+		<string>com.ios.wizard.hypdra.fivehundred</string>
+		<string>com.ios.wizard.hypdra.onetb</string>
+	</array>
+	<key>Effects</key>
+	<array>
+		<string>com.ios.wizard.hypdra.unlockeffects</string>
+	</array>
+	<key>Tens</key>
+	<array>
+		<string>com.ios.wizard.hypdra.businesstemplate</string>
+	</array>
+	<key>SharedSecret</key>
+	<string>1a6bc84ffb2c4f5b99a91d9a690eeef0</string>
+</dict>
+</plist>

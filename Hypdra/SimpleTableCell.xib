@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SimpleTableCell" rowHeight="95" id="5pA-gZ-blO" customClass="SimpleTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5pA-gZ-blO" id="IrT-Iu-d7n">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="94.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1LV-kC-wIC">
+                        <rect key="frame" x="0.0" y="0.0" width="365" height="94"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder_no_text.png" translatesAutoresizingMaskIntoConstraints="NO" id="RAq-HI-KV2">
+                                <rect key="frame" x="22" y="19" width="36" height="56"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1r-cz-cRm">
+                                <rect key="frame" x="77" y="19" width="182" height="23"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gi2-eA-epM">
+                                <rect key="frame" x="108" y="48" width="219" height="23"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sit-BC-fA3">
+                                <rect key="frame" x="331" y="22" width="14" height="40"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="32-save-vedio" translatesAutoresizingMaskIntoConstraints="NO" id="HhS-u4-PTp">
+                                <rect key="frame" x="75" y="48" width="33" height="23"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gi2-eA-epM" firstAttribute="width" secondItem="1LV-kC-wIC" secondAttribute="width" multiplier="0.6" id="0aM-K8-VBK"/>
+                            <constraint firstItem="HhS-u4-PTp" firstAttribute="width" secondItem="1LV-kC-wIC" secondAttribute="width" multiplier="0.09" id="6kB-sX-5Zk"/>
+                            <constraint firstItem="HhS-u4-PTp" firstAttribute="centerY" secondItem="1LV-kC-wIC" secondAttribute="centerY" multiplier="1.27" id="ElZ-Zw-fx2"/>
+                            <constraint firstItem="Sit-BC-fA3" firstAttribute="centerX" secondItem="1LV-kC-wIC" secondAttribute="centerX" multiplier="1.85" id="GQV-4Z-IrZ"/>
+                            <constraint firstItem="Gi2-eA-epM" firstAttribute="centerY" secondItem="1LV-kC-wIC" secondAttribute="centerY" multiplier="1.27" id="Jxr-pG-Pdq"/>
+                            <constraint firstItem="Sit-BC-fA3" firstAttribute="height" secondItem="1LV-kC-wIC" secondAttribute="height" multiplier="0.42" id="KjG-5p-Xvh"/>
+                            <constraint firstItem="R1r-cz-cRm" firstAttribute="centerY" secondItem="1LV-kC-wIC" secondAttribute="centerY" multiplier="0.65" id="NsE-nr-N8K"/>
+                            <constraint firstItem="RAq-HI-KV2" firstAttribute="centerY" secondItem="1LV-kC-wIC" secondAttribute="centerY" id="SAs-0h-lSV"/>
+                            <constraint firstItem="HhS-u4-PTp" firstAttribute="centerX" secondItem="1LV-kC-wIC" secondAttribute="centerX" multiplier="0.5" id="VWc-yv-Hdn"/>
+                            <constraint firstItem="RAq-HI-KV2" firstAttribute="height" secondItem="1LV-kC-wIC" secondAttribute="height" multiplier="0.6" id="Whf-yb-jlE"/>
+                            <constraint firstItem="Gi2-eA-epM" firstAttribute="height" secondItem="1LV-kC-wIC" secondAttribute="height" multiplier="0.25" id="ZuB-8R-hXa"/>
+                            <constraint firstItem="RAq-HI-KV2" firstAttribute="centerX" secondItem="1LV-kC-wIC" secondAttribute="centerX" multiplier="0.22" id="ace-7w-LKi"/>
+                            <constraint firstItem="R1r-cz-cRm" firstAttribute="height" secondItem="1LV-kC-wIC" secondAttribute="height" multiplier="0.25" id="dCK-ok-xMX"/>
+                            <constraint firstItem="R1r-cz-cRm" firstAttribute="width" secondItem="1LV-kC-wIC" secondAttribute="width" multiplier="0.5" id="j5L-4w-4Kc"/>
+                            <constraint firstItem="HhS-u4-PTp" firstAttribute="height" secondItem="1LV-kC-wIC" secondAttribute="height" multiplier="0.25" id="mJQ-ze-0a9"/>
+                            <constraint firstItem="Sit-BC-fA3" firstAttribute="centerY" secondItem="1LV-kC-wIC" secondAttribute="centerY" multiplier="0.9" id="pGo-Kg-nlH"/>
+                            <constraint firstItem="Sit-BC-fA3" firstAttribute="width" secondItem="1LV-kC-wIC" secondAttribute="width" multiplier="0.04" id="qwF-QS-4eD"/>
+                            <constraint firstItem="R1r-cz-cRm" firstAttribute="centerX" secondItem="1LV-kC-wIC" secondAttribute="centerX" multiplier="0.92" id="sRv-Q3-V43"/>
+                            <constraint firstItem="RAq-HI-KV2" firstAttribute="width" secondItem="1LV-kC-wIC" secondAttribute="width" multiplier="0.1" id="thD-wd-UgX"/>
+                            <constraint firstItem="Gi2-eA-epM" firstAttribute="centerX" secondItem="1LV-kC-wIC" secondAttribute="centerX" multiplier="1.19" id="yFk-jB-PhT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1LV-kC-wIC" firstAttribute="leading" secondItem="IrT-Iu-d7n" secondAttribute="leading" id="ASP-bK-icf"/>
+                    <constraint firstAttribute="trailing" secondItem="1LV-kC-wIC" secondAttribute="trailing" id="bgx-4v-0ee"/>
+                    <constraint firstItem="1LV-kC-wIC" firstAttribute="top" secondItem="IrT-Iu-d7n" secondAttribute="top" id="cdp-yi-PlS"/>
+                    <constraint firstAttribute="bottom" secondItem="1LV-kC-wIC" secondAttribute="bottom" id="mK3-BK-3KA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Iv_msgicon" destination="HhS-u4-PTp" id="C91-mv-Wk1"/>
+                <outlet property="Iv_profile" destination="RAq-HI-KV2" id="BYm-jr-cIw"/>
+                <outlet property="btn_checkbox" destination="Sit-BC-fA3" id="39S-Kx-Wap"/>
+                <outlet property="lbl_mailid" destination="Gi2-eA-epM" id="gWi-Sh-H5U"/>
+                <outlet property="lbl_name" destination="R1r-cz-cRm" id="a8l-8L-wre"/>
+            </connections>
+            <point key="canvasLocation" x="264.5" y="222.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="32-save-vedio" width="32" height="32"/>
+        <image name="Placeholder_no_text.png" width="1024" height="1024"/>
+    </resources>
+</document>

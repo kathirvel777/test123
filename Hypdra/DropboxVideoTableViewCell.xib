@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DropboxVideoTableViewCell" rowHeight="72" id="KGk-i7-Jjw" customClass="DropboxVideoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVe-Ui-Fga">
+                        <rect key="frame" x="0.0" y="-1" width="415" height="72"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aq8-st-W1A">
+                                <rect key="frame" x="0.0" y="0.0" width="83" height="72"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7G8-9v-j6d">
+                                        <rect key="frame" x="11.5" y="6" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="BNz-fl-dCr"/>
+                                            <constraint firstAttribute="width" constant="60" id="ERl-DH-4xb"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="Jwq-UJ-Uhz"/>
+                                    <constraint firstAttribute="height" constant="72" id="d7D-IQ-Ybi"/>
+                                    <constraint firstItem="7G8-9v-j6d" firstAttribute="centerX" secondItem="Aq8-st-W1A" secondAttribute="centerX" id="kKt-BI-Npw"/>
+                                    <constraint firstItem="7G8-9v-j6d" firstAttribute="centerY" secondItem="Aq8-st-W1A" secondAttribute="centerY" id="qN6-lb-gR6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9s8-YC-ick">
+                                <rect key="frame" x="83" y="0.0" width="270" height="72"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yr-mD-iRK">
+                                        <rect key="frame" x="0.0" y="-0.5" width="270" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="270" id="Sx4-Lg-1b4"/>
+                                            <constraint firstAttribute="height" constant="72" id="k4B-gQ-tMM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="YyB-Mf-rXJ"/>
+                                    <constraint firstItem="2yr-mD-iRK" firstAttribute="centerX" secondItem="9s8-YC-ick" secondAttribute="centerX" id="jUP-HE-m3T"/>
+                                    <constraint firstItem="2yr-mD-iRK" firstAttribute="centerY" secondItem="9s8-YC-ick" secondAttribute="centerY" id="oZL-k6-f2J"/>
+                                    <constraint firstAttribute="height" constant="72" id="oby-gJ-bNX"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAU-Q0-CkM">
+                                <rect key="frame" x="353" y="0.0" width="62" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbY-0g-EA7">
+                                        <rect key="frame" x="15.5" y="18" width="31" height="36"/>
+                                        <state key="normal" image="download_img"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dbY-0g-EA7" firstAttribute="height" secondItem="wAU-Q0-CkM" secondAttribute="height" multiplier="0.5" id="Imb-Fa-tPI"/>
+                                    <constraint firstItem="dbY-0g-EA7" firstAttribute="width" secondItem="wAU-Q0-CkM" secondAttribute="width" multiplier="0.5" id="Vif-kz-do6"/>
+                                    <constraint firstAttribute="width" constant="62" id="eDM-Mx-fft"/>
+                                    <constraint firstItem="dbY-0g-EA7" firstAttribute="centerY" secondItem="wAU-Q0-CkM" secondAttribute="centerY" id="k1z-Ky-ZMU"/>
+                                    <constraint firstAttribute="height" constant="72" id="kGE-iP-Ba6"/>
+                                    <constraint firstItem="dbY-0g-EA7" firstAttribute="centerX" secondItem="wAU-Q0-CkM" secondAttribute="centerX" id="lRy-Ty-eGw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wAU-Q0-CkM" firstAttribute="centerY" secondItem="XVe-Ui-Fga" secondAttribute="centerY" id="Exh-eT-0vZ"/>
+                            <constraint firstItem="wAU-Q0-CkM" firstAttribute="centerX" secondItem="XVe-Ui-Fga" secondAttribute="centerX" multiplier="1.85" id="IAH-xk-dvS"/>
+                            <constraint firstItem="9s8-YC-ick" firstAttribute="centerY" secondItem="XVe-Ui-Fga" secondAttribute="centerY" id="dpx-wo-bWp"/>
+                            <constraint firstItem="9s8-YC-ick" firstAttribute="centerX" secondItem="XVe-Ui-Fga" secondAttribute="centerX" multiplier="1.05" id="lKV-R1-XkO"/>
+                            <constraint firstItem="Aq8-st-W1A" firstAttribute="centerY" secondItem="XVe-Ui-Fga" secondAttribute="centerY" id="o8v-3l-af1"/>
+                            <constraint firstItem="Aq8-st-W1A" firstAttribute="centerX" secondItem="XVe-Ui-Fga" secondAttribute="centerX" multiplier="0.2" id="pg6-J1-nMF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XVe-Ui-Fga" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="63w-pD-HEZ"/>
+                    <constraint firstItem="XVe-Ui-Fga" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="URT-Yf-tTL"/>
+                    <constraint firstItem="XVe-Ui-Fga" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Yk6-ct-T97"/>
+                    <constraint firstItem="XVe-Ui-Fga" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="aoN-Dh-Tz4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dropboxDownload" destination="dbY-0g-EA7" id="Ej6-gz-NEX"/>
+                <outlet property="dropboxLabel" destination="2yr-mD-iRK" id="las-cW-mXS"/>
+                <outlet property="imgView" destination="7G8-9v-j6d" id="Uww-5C-BPB"/>
+            </connections>
+            <point key="canvasLocation" x="82.5" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="download_img" width="104" height="74"/>
+    </resources>
+</document>

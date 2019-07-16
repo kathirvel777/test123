@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewController">
+            <connections>
+                <outlet property="back" destination="81h-bo-qjE" id="Fd2-nQ-P9K"/>
+                <outlet property="collectionView" destination="tGo-Ae-FeW" id="oi8-Kc-nJV"/>
+                <outlet property="done" destination="Nk6-fd-3q0" id="QMY-TV-4XD"/>
+                <outlet property="view" destination="qvr-4q-s7c" id="gpe-WS-9TH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qvr-4q-s7c">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GbW-m8-Npi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="66.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nk6-fd-3q0">
+                            <rect key="frame" x="262.5" y="0.0" width="112.5" height="66.5"/>
+                            <state key="normal" title="Log Out">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="done:" destination="-1" eventType="touchUpInside" id="pQr-TB-hQF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81h-bo-qjE">
+                            <rect key="frame" x="10" y="0.0" width="37.5" height="66.5"/>
+                            <state key="normal" image="12-back-arrow"/>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="lfh-wG-Xdf"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flickr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0t4-yo-Lcb">
+                            <rect key="frame" x="122" y="0.0" width="131" height="66.5"/>
+                            <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.23529411764705882" green="0.63529411764705879" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="0t4-yo-Lcb" firstAttribute="centerX" secondItem="GbW-m8-Npi" secondAttribute="centerX" id="3lM-2Q-yOZ"/>
+                        <constraint firstItem="0t4-yo-Lcb" firstAttribute="centerY" secondItem="GbW-m8-Npi" secondAttribute="centerY" id="6RD-tq-hP1"/>
+                        <constraint firstItem="0t4-yo-Lcb" firstAttribute="width" secondItem="GbW-m8-Npi" secondAttribute="width" multiplier="0.35" id="AjI-j8-A2v"/>
+                        <constraint firstItem="81h-bo-qjE" firstAttribute="width" secondItem="GbW-m8-Npi" secondAttribute="width" multiplier="0.1" id="Bte-GB-Re4"/>
+                        <constraint firstAttribute="height" constant="66.5" id="CMh-wO-AEy"/>
+                        <constraint firstItem="Nk6-fd-3q0" firstAttribute="height" secondItem="GbW-m8-Npi" secondAttribute="height" id="GvN-Cf-JX5"/>
+                        <constraint firstItem="0t4-yo-Lcb" firstAttribute="height" secondItem="GbW-m8-Npi" secondAttribute="height" id="IV6-wS-3Xe"/>
+                        <constraint firstItem="81h-bo-qjE" firstAttribute="top" secondItem="GbW-m8-Npi" secondAttribute="top" id="PxS-Wh-yq2"/>
+                        <constraint firstItem="Nk6-fd-3q0" firstAttribute="width" secondItem="GbW-m8-Npi" secondAttribute="width" multiplier="0.3" id="ShK-6t-O1l"/>
+                        <constraint firstAttribute="trailing" secondItem="Nk6-fd-3q0" secondAttribute="trailing" id="VMy-uz-Omx"/>
+                        <constraint firstAttribute="bottom" secondItem="81h-bo-qjE" secondAttribute="bottom" id="VYN-9A-Tqa"/>
+                        <constraint firstItem="Nk6-fd-3q0" firstAttribute="top" secondItem="GbW-m8-Npi" secondAttribute="top" id="bwz-Df-cZl"/>
+                        <constraint firstAttribute="bottom" secondItem="Nk6-fd-3q0" secondAttribute="bottom" id="dMP-uV-dHm"/>
+                        <constraint firstItem="81h-bo-qjE" firstAttribute="leading" secondItem="GbW-m8-Npi" secondAttribute="leading" constant="10" id="jy3-mC-RJU"/>
+                        <constraint firstItem="81h-bo-qjE" firstAttribute="height" secondItem="GbW-m8-Npi" secondAttribute="height" id="vUR-hf-GYb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhe-Zh-XiB">
+                    <rect key="frame" x="0.0" y="66.5" width="375" height="1.5"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tGo-Ae-FeW">
+                    <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wrY-aR-XJW">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="35K-Pn-P3J"/>
+                        <outlet property="delegate" destination="-1" id="esn-EY-boy"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dhe-Zh-XiB" secondAttribute="trailing" id="1ah-Ud-Ule"/>
+                <constraint firstItem="tGo-Ae-FeW" firstAttribute="top" secondItem="dhe-Zh-XiB" secondAttribute="bottom" id="5cS-4a-zY4"/>
+                <constraint firstItem="GbW-m8-Npi" firstAttribute="top" secondItem="qvr-4q-s7c" secondAttribute="top" id="A7U-LK-evy"/>
+                <constraint firstItem="GbW-m8-Npi" firstAttribute="width" secondItem="qvr-4q-s7c" secondAttribute="width" id="ENt-NH-uOy"/>
+                <constraint firstItem="dhe-Zh-XiB" firstAttribute="width" secondItem="qvr-4q-s7c" secondAttribute="width" id="NjQ-AV-ZKb"/>
+                <constraint firstAttribute="trailing" secondItem="GbW-m8-Npi" secondAttribute="trailing" id="RWt-nb-G5i"/>
+                <constraint firstItem="dhe-Zh-XiB" firstAttribute="height" secondItem="qvr-4q-s7c" secondAttribute="height" multiplier="0.002" id="gzB-DJ-qkG"/>
+                <constraint firstAttribute="trailing" secondItem="tGo-Ae-FeW" secondAttribute="trailing" id="moI-iF-Y2l"/>
+                <constraint firstItem="GbW-m8-Npi" firstAttribute="leading" secondItem="qvr-4q-s7c" secondAttribute="leading" id="qSl-cj-EF6"/>
+                <constraint firstItem="dhe-Zh-XiB" firstAttribute="leading" secondItem="qvr-4q-s7c" secondAttribute="leading" id="tIy-HG-75h"/>
+                <constraint firstAttribute="bottom" secondItem="tGo-Ae-FeW" secondAttribute="bottom" id="tSW-R7-mgM"/>
+                <constraint firstItem="tGo-Ae-FeW" firstAttribute="leading" secondItem="qvr-4q-s7c" secondAttribute="leading" id="w5k-fJ-Udc"/>
+                <constraint firstItem="dhe-Zh-XiB" firstAttribute="top" secondItem="GbW-m8-Npi" secondAttribute="bottom" id="xLa-Q1-c8B"/>
+            </constraints>
+            <point key="canvasLocation" x="261" y="289"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="12-back-arrow" width="21" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EffectsTableViewCell" rowHeight="97" id="KGk-i7-Jjw" customClass="EffectsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-Wa-UMD">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="96.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pew-FK-zF0">
+                                <rect key="frame" x="15.5" y="32" width="18.5" height="32.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyH-Zs-fqn">
+                                <rect key="frame" x="53" y="0.0" width="198" height="96.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="20"/>
+                                <color key="textColor" red="0.1764705882352941" green="0.17254901960784313" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround_music_count" translatesAutoresizingMaskIntoConstraints="NO" id="B4O-Ps-s25">
+                                <rect key="frame" x="244" y="28.5" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.067313315869186569" green="0.97680455446243286" blue="0.01240272066623313" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="MVl-hb-fEH"/>
+                                    <constraint firstAttribute="height" constant="40" id="X1w-jf-Ume"/>
+                                    <constraint firstAttribute="width" constant="28" id="qfh-pf-K07"/>
+                                    <constraint firstAttribute="height" constant="28" id="xQx-rj-ui9"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qfh-pf-K07"/>
+                                        <exclude reference="xQx-rj-ui9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="MVl-hb-fEH"/>
+                                        <exclude reference="X1w-jf-Ume"/>
+                                        <include reference="qfh-pf-K07"/>
+                                        <include reference="xQx-rj-ui9"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcy-ei-AWX">
+                                <rect key="frame" x="249" y="28.5" width="30" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dcy-ei-AWX" firstAttribute="centerY" secondItem="B4O-Ps-s25" secondAttribute="centerY" id="6jE-Cs-bQB"/>
+                            <constraint firstItem="IyH-Zs-fqn" firstAttribute="height" secondItem="iBb-Wa-UMD" secondAttribute="height" id="7Gv-8g-2t8"/>
+                            <constraint firstItem="dcy-ei-AWX" firstAttribute="width" secondItem="B4O-Ps-s25" secondAttribute="width" multiplier="0.75" id="986-en-rWs"/>
+                            <constraint firstItem="IyH-Zs-fqn" firstAttribute="centerY" secondItem="iBb-Wa-UMD" secondAttribute="centerY" id="D1A-63-clb"/>
+                            <constraint firstItem="IyH-Zs-fqn" firstAttribute="centerX" secondItem="iBb-Wa-UMD" secondAttribute="centerX" multiplier="0.92" id="EXW-8g-Z9e"/>
+                            <constraint firstItem="pew-FK-zF0" firstAttribute="width" secondItem="iBb-Wa-UMD" secondAttribute="width" multiplier="0.03" id="Jv3-yC-SB4"/>
+                            <constraint firstItem="pew-FK-zF0" firstAttribute="centerY" secondItem="iBb-Wa-UMD" secondAttribute="centerY" id="P77-7P-ZvE"/>
+                            <constraint firstItem="B4O-Ps-s25" firstAttribute="centerX" secondItem="iBb-Wa-UMD" secondAttribute="centerX" multiplier="1.6" id="Pgu-tD-YJ6"/>
+                            <constraint firstItem="B4O-Ps-s25" firstAttribute="centerX" secondItem="iBb-Wa-UMD" secondAttribute="centerX" multiplier="1.7" id="Qcq-Jn-vSU"/>
+                            <constraint firstItem="dcy-ei-AWX" firstAttribute="centerX" secondItem="B4O-Ps-s25" secondAttribute="centerX" id="UbD-3u-m9Y"/>
+                            <constraint firstItem="pew-FK-zF0" firstAttribute="height" secondItem="iBb-Wa-UMD" secondAttribute="height" multiplier="0.34" id="eUY-Cb-Vf8"/>
+                            <constraint firstItem="pew-FK-zF0" firstAttribute="centerX" secondItem="iBb-Wa-UMD" secondAttribute="centerX" multiplier="0.15" id="idz-fG-8Ch"/>
+                            <constraint firstItem="IyH-Zs-fqn" firstAttribute="width" secondItem="iBb-Wa-UMD" secondAttribute="width" multiplier="0.6" id="nuW-O7-etQ"/>
+                            <constraint firstItem="dcy-ei-AWX" firstAttribute="height" secondItem="B4O-Ps-s25" secondAttribute="height" id="uih-vP-f93"/>
+                            <constraint firstItem="B4O-Ps-s25" firstAttribute="centerY" secondItem="iBb-Wa-UMD" secondAttribute="centerY" id="vgo-2l-0Vu"/>
+                            <constraint firstItem="pew-FK-zF0" firstAttribute="width" secondItem="iBb-Wa-UMD" secondAttribute="width" multiplier="0.056" id="yz8-od-d7z"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jv3-yC-SB4"/>
+                                <exclude reference="Qcq-Jn-vSU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Jv3-yC-SB4"/>
+                                <exclude reference="yz8-od-d7z"/>
+                                <exclude reference="Pgu-tD-YJ6"/>
+                                <include reference="Qcq-Jn-vSU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="iBb-Wa-UMD" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="81s-xL-vsK"/>
+                    <constraint firstItem="iBb-Wa-UMD" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="OuU-Vf-Lym"/>
+                    <constraint firstItem="iBb-Wa-UMD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Psp-Vs-QSd"/>
+                    <constraint firstItem="iBb-Wa-UMD" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="Xzd-VG-mHY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bgImage" destination="B4O-Ps-s25" id="kjF-xS-gDt"/>
+                <outlet property="countLabel" destination="dcy-ei-AWX" id="73r-im-BGt"/>
+                <outlet property="imgView" destination="pew-FK-zF0" id="rOF-5v-nR9"/>
+                <outlet property="nameLabel" destination="IyH-Zs-fqn" id="IHi-4z-rKz"/>
+            </connections>
+            <point key="canvasLocation" x="122" y="102.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="backround_music_count" width="128" height="128"/>
+    </resources>
+</document>

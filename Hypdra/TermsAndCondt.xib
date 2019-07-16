@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="F011003T.TTF">
+            <string>FuturaT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="128" id="UPr-Ak-oh9" customClass="TermsAndCondt">
+            <rect key="frame" x="0.0" y="0.0" width="475" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UPr-Ak-oh9" id="KvZ-qL-Xip">
+                <rect key="frame" x="0.0" y="0.0" width="475" height="127.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aqj-SH-RrL">
+                        <rect key="frame" x="48" y="0.0" width="380" height="128"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xl7-ZL-4kI">
+                                <rect key="frame" x="0.0" y="0.0" width="380" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="FuturaT-Book" family="FuturaT" pointSize="19"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xl7-ZL-4kI" firstAttribute="height" secondItem="aqj-SH-RrL" secondAttribute="height" id="4ux-5n-yDe"/>
+                            <constraint firstItem="Xl7-ZL-4kI" firstAttribute="width" secondItem="aqj-SH-RrL" secondAttribute="width" id="R4t-Gd-vvG"/>
+                            <constraint firstItem="Xl7-ZL-4kI" firstAttribute="centerX" secondItem="aqj-SH-RrL" secondAttribute="centerX" id="j4P-4O-IoN"/>
+                            <constraint firstItem="Xl7-ZL-4kI" firstAttribute="centerY" secondItem="aqj-SH-RrL" secondAttribute="centerY" id="ka1-4S-4Gp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.9137254901960784" green="0.90588235294117647" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="aqj-SH-RrL" firstAttribute="centerX" secondItem="KvZ-qL-Xip" secondAttribute="centerX" id="3wg-32-6yp"/>
+                    <constraint firstItem="aqj-SH-RrL" firstAttribute="height" secondItem="KvZ-qL-Xip" secondAttribute="height" id="FhI-hw-h17"/>
+                    <constraint firstItem="aqj-SH-RrL" firstAttribute="width" secondItem="KvZ-qL-Xip" secondAttribute="width" multiplier="0.8" id="Mqd-yY-3RW"/>
+                    <constraint firstItem="aqj-SH-RrL" firstAttribute="width" secondItem="KvZ-qL-Xip" secondAttribute="width" multiplier="0.9" id="Q6y-BX-0CQ"/>
+                    <constraint firstItem="aqj-SH-RrL" firstAttribute="centerY" secondItem="KvZ-qL-Xip" secondAttribute="centerY" id="eIF-gN-BN4"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Mqd-yY-3RW"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=regular">
+                    <mask key="constraints">
+                        <include reference="Mqd-yY-3RW"/>
+                        <exclude reference="Q6y-BX-0CQ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="subLabel" destination="Xl7-ZL-4kI" id="d9k-eC-LqO"/>
+                <outlet property="subView" destination="aqj-SH-RrL" id="HF8-2t-RSS"/>
+            </connections>
+            <point key="canvasLocation" x="99.5" y="5"/>
+        </tableViewCell>
+    </objects>
+</document>

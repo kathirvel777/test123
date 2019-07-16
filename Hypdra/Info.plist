@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Hypdra</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5.13</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>li5056045</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-NTwHECYjJAfqpBLAFgO7Ly5cr</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1842331276032285</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>db-8jsv9np59zzkzgo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.devedup.flickrkit</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>flickrkitdemo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.843659127107-tianp29e0poa0lsnuad1ug7fcbpoe3rq</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.ios.wizard.hypdra</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.916257056143-vr3eicm9qap6obi2tnkj7q7a6q40felc</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>6c79a05b160ddc838fb46a45ce2de825d4bb8e60</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>1842331276032285</string>
+	<key>FacebookDisplayName</key>
+	<string>CustomHypdra</string>
+	<key>LIAppId</key>
+	<string>5056045</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>843659127107-tianp29e0poa0lsnuad1ug7fcbpoe3rq.apps.googleusercontent.com</string>
+		<string>com-google-gidconsent</string>
+		<string>com-google-gidconsent-google</string>
+		<string>com.google.gppconsent.2.4.0</string>
+		<string>com.google.gppconsent.2.4.1</string>
+		<string>twitter</string>
+		<string>twitterauth</string>
+		<string>linkedin</string>
+		<string>linkedin-sdk2</string>
+		<string>linkedin-sdk</string>
+		<string>fb</string>
+		<string>fbauth</string>
+		<string>fbauth2</string>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbshareextension</string>
+		<string>instagram</string>
+		<string>dbapi-2</string>
+		<string>dbapi-8-emm</string>
+		<string>whatsapp</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>www.hypdra.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>${PRODUCT_NAME} would like your permission to access  to your media library so that you can use your songs to make video.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>${PRODUCT_NAME} BluetoothPeripheral</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>${PRODUCT_NAME} would like your permission to access your calendar to maintain date of purchase</string>
+	<key>NSCameraUsageDescription</key>
+	<string>${PRODUCT_NAME} needs access to your camera so that you can capture photos and videos to make a video</string>
+	<key>NSContactsUsageDescription</key>
+	<string>${PRODUCT_NAME} requires contacts access for invitation </string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>${PRODUCT_NAME} HomeKit Usage</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>${PRODUCT_NAME} Use location always</string>
+	<key>NSLocationUsageDescription</key>
+	<string>${PRODUCT_NAME} Location Updates</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>${PRODUCT_NAME} WhenInUse Location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME} would like your permission to access  to record audio so that you can use your audio files to make video</string>
+	<key>NSMotionUsageDescription</key>
+	<string>${PRODUCT_NAME} Motion Usage</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string> Enable photo access so you can edit save images into your Camera Roll</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string> Enable photo access so you can edit save images in your Camera Roll</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>${PRODUCT_NAME} Reminder Usage</string>
+	<key>NSSiriUsageDescription</key>
+	<string>${PRODUCT_NAME} Siri Usage</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>${PRODUCT_NAME} Speech Recognition Usage</string>
+	<key>NSVideoSubscriberAccountUsageDescription</key>
+	<string>${PRODUCT_NAME} Video Subscribe Usage</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Semibold.ttf</string>
+		<string>Overpass_Regular.ttf</string>
+		<string>Pacifico.ttf</string>
+		<string>PERB____.TTF</string>
+		<string>PERBI___.TTF</string>
+		<string>sofiapro-light.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>
